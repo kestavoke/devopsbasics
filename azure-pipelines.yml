@@ -25,6 +25,6 @@ steps:
     targetFolder: '$(Build.ArtifactStagingDirectory)'    
 
 - task: PublishBuildArtifacts@1    
-  displayName: 'Publish Artifact: drop'
+  displayName: 'Publish Artifact: warfile'
   inputs:
     PathtoPublish: '$(build.artifactstagingdirectory)'
